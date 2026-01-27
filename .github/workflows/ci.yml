@@ -33,6 +33,6 @@ jobs:
           npm test -- --coverage \
             --collectCoverageFrom='src/**/*.js' \
             --coveragePathIgnorePatterns='/node_modules/'
-      
-      - name: Build application 
+
+      - name: Build application
         run: npm run build 
