@@ -5,13 +5,17 @@ on:
     branches: [main, develop]
     tags:
       - '*'
+    paths:
+      - 'src/**'
   
   pull_request:
     branches: [main, develop]
+    paths:
+      - 'src/**'
   
-  schedule:
-    - cron: '*/5 * * * *'
-  
+  # schedule:
+  #   - cron: '*/5 * * * *'
+   
   
   
 jobs:
